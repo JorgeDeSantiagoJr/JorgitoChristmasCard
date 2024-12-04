@@ -1,0 +1,97 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('JorgitoChristmas.JPG') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #FFFFFF; /* White */
+}
+
+header h2 {
+    font-size: 1.5rem;
+    color: #90EE90; /* Light Green */
+}
+
+/* Profile Section */
+.profile {
+    text-align: center;
+    margin: 2rem auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.profile-pic {
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    border: 3px solid #ff0015;
+}
+
+.profile p {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    margin: 2rem auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.contact h3 {
+    font-size: 1.5rem;
+    color: #ff0015;
+}
+
+.contact ul {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.contact li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.contact a {
+    color: #90EE90;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
